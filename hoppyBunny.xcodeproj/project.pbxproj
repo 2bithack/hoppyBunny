@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0C6C571D1C20A600812625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C6C561D1C20A600812625 /* AppDelegate.swift */; };
+		4A0C6C591D1C20A600812625 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A0C6C581D1C20A600812625 /* GameScene.sks */; };
+		4A0C6C5B1D1C20A600812625 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C6C5A1D1C20A600812625 /* GameScene.swift */; };
+		4A0C6C5D1D1C20A600812625 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C6C5C1D1C20A600812625 /* GameViewController.swift */; };
+		4A0C6C601D1C20A600812625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0C6C5E1D1C20A600812625 /* Main.storyboard */; };
+		4A0C6C621D1C20A600812625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0C6C611D1C20A600812625 /* Assets.xcassets */; };
+		4A0C6C651D1C20A600812625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0C6C631D1C20A600812625 /* LaunchScreen.storyboard */; };
+		4A0C6C701D1C20A600812625 /* hoppyBunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C6C6F1D1C20A600812625 /* hoppyBunnyTests.swift */; };
+		4A0C6C7B1D1C20A600812625 /* hoppyBunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C6C7A1D1C20A600812625 /* hoppyBunnyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0C6C6C1D1C20A600812625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0C6C4B1D1C20A600812625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0C6C521D1C20A600812625;
+			remoteInfo = hoppyBunny;
+		};
+		4A0C6C771D1C20A600812625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0C6C4B1D1C20A600812625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0C6C521D1C20A600812625;
+			remoteInfo = hoppyBunny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0C6C531D1C20A600812625 /* hoppyBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoppyBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0C6C561D1C20A600812625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A0C6C581D1C20A600812625 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4A0C6C5A1D1C20A600812625 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4A0C6C5C1D1C20A600812625 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4A0C6C5F1D1C20A600812625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0C6C611D1C20A600812625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0C6C641D1C20A600812625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0C6C661D1C20A600812625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0C6C6B1D1C20A600812625 /* hoppyBunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hoppyBunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0C6C6F1D1C20A600812625 /* hoppyBunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoppyBunnyTests.swift; sourceTree = "<group>"; };
+		4A0C6C711D1C20A600812625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0C6C761D1C20A600812625 /* hoppyBunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hoppyBunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0C6C7A1D1C20A600812625 /* hoppyBunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoppyBunnyUITests.swift; sourceTree = "<group>"; };
+		4A0C6C7C1D1C20A600812625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0C6C501D1C20A600812625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C6C681D1C20A600812625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C6C731D1C20A600812625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0C6C4A1D1C20A600812625 = {
+			isa = PBXGroup;
+			children = (
+				4A0C6C551D1C20A600812625 /* hoppyBunny */,
+				4A0C6C6E1D1C20A600812625 /* hoppyBunnyTests */,
+				4A0C6C791D1C20A600812625 /* hoppyBunnyUITests */,
+				4A0C6C541D1C20A600812625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0C6C541D1C20A600812625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C6C531D1C20A600812625 /* hoppyBunny.app */,
+				4A0C6C6B1D1C20A600812625 /* hoppyBunnyTests.xctest */,
+				4A0C6C761D1C20A600812625 /* hoppyBunnyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0C6C551D1C20A600812625 /* hoppyBunny */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C6C561D1C20A600812625 /* AppDelegate.swift */,
+				4A0C6C581D1C20A600812625 /* GameScene.sks */,
+				4A0C6C5A1D1C20A600812625 /* GameScene.swift */,
+				4A0C6C5C1D1C20A600812625 /* GameViewController.swift */,
+				4A0C6C5E1D1C20A600812625 /* Main.storyboard */,
+				4A0C6C611D1C20A600812625 /* Assets.xcassets */,
+				4A0C6C631D1C20A600812625 /* LaunchScreen.storyboard */,
+				4A0C6C661D1C20A600812625 /* Info.plist */,
+			);
+			path = hoppyBunny;
+			sourceTree = "<group>";
+		};
+		4A0C6C6E1D1C20A600812625 /* hoppyBunnyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C6C6F1D1C20A600812625 /* hoppyBunnyTests.swift */,
+				4A0C6C711D1C20A600812625 /* Info.plist */,
+			);
+			path = hoppyBunnyTests;
+			sourceTree = "<group>";
+		};
+		4A0C6C791D1C20A600812625 /* hoppyBunnyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C6C7A1D1C20A600812625 /* hoppyBunnyUITests.swift */,
+				4A0C6C7C1D1C20A600812625 /* Info.plist */,
+			);
+			path = hoppyBunnyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0C6C521D1C20A600812625 /* hoppyBunny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0C6C7F1D1C20A600812625 /* Build configuration list for PBXNativeTarget "hoppyBunny" */;
+			buildPhases = (
+				4A0C6C4F1D1C20A600812625 /* Sources */,
+				4A0C6C501D1C20A600812625 /* Frameworks */,
+				4A0C6C511D1C20A600812625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hoppyBunny;
+			productName = hoppyBunny;
+			productReference = 4A0C6C531D1C20A600812625 /* hoppyBunny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0C6C6A1D1C20A600812625 /* hoppyBunnyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0C6C821D1C20A600812625 /* Build configuration list for PBXNativeTarget "hoppyBunnyTests" */;
+			buildPhases = (
+				4A0C6C671D1C20A600812625 /* Sources */,
+				4A0C6C681D1C20A600812625 /* Frameworks */,
+				4A0C6C691D1C20A600812625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0C6C6D1D1C20A600812625 /* PBXTargetDependency */,
+			);
+			name = hoppyBunnyTests;
+			productName = hoppyBunnyTests;
+			productReference = 4A0C6C6B1D1C20A600812625 /* hoppyBunnyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0C6C751D1C20A600812625 /* hoppyBunnyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0C6C851D1C20A600812625 /* Build configuration list for PBXNativeTarget "hoppyBunnyUITests" */;
+			buildPhases = (
+				4A0C6C721D1C20A600812625 /* Sources */,
+				4A0C6C731D1C20A600812625 /* Frameworks */,
+				4A0C6C741D1C20A600812625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0C6C781D1C20A600812625 /* PBXTargetDependency */,
+			);
+			name = hoppyBunnyUITests;
+			productName = hoppyBunnyUITests;
+			productReference = 4A0C6C761D1C20A600812625 /* hoppyBunnyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0C6C4B1D1C20A600812625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GarbageGames;
+				TargetAttributes = {
+					4A0C6C521D1C20A600812625 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4A0C6C6A1D1C20A600812625 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0C6C521D1C20A600812625;
+					};
+					4A0C6C751D1C20A600812625 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0C6C521D1C20A600812625;
+					};
+				};
+			};
+			buildConfigurationList = 4A0C6C4E1D1C20A600812625 /* Build configuration list for PBXProject "hoppyBunny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0C6C4A1D1C20A600812625;
+			productRefGroup = 4A0C6C541D1C20A600812625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0C6C521D1C20A600812625 /* hoppyBunny */,
+				4A0C6C6A1D1C20A600812625 /* hoppyBunnyTests */,
+				4A0C6C751D1C20A600812625 /* hoppyBunnyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0C6C511D1C20A600812625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C6C591D1C20A600812625 /* GameScene.sks in Resources */,
+				4A0C6C651D1C20A600812625 /* LaunchScreen.storyboard in Resources */,
+				4A0C6C621D1C20A600812625 /* Assets.xcassets in Resources */,
+				4A0C6C601D1C20A600812625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C6C691D1C20A600812625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C6C741D1C20A600812625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0C6C4F1D1C20A600812625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C6C5B1D1C20A600812625 /* GameScene.swift in Sources */,
+				4A0C6C5D1D1C20A600812625 /* GameViewController.swift in Sources */,
+				4A0C6C571D1C20A600812625 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C6C671D1C20A600812625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C6C701D1C20A600812625 /* hoppyBunnyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C6C721D1C20A600812625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C6C7B1D1C20A600812625 /* hoppyBunnyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0C6C6D1D1C20A600812625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0C6C521D1C20A600812625 /* hoppyBunny */;
+			targetProxy = 4A0C6C6C1D1C20A600812625 /* PBXContainerItemProxy */;
+		};
+		4A0C6C781D1C20A600812625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0C6C521D1C20A600812625 /* hoppyBunny */;
+			targetProxy = 4A0C6C771D1C20A600812625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0C6C5E1D1C20A600812625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0C6C5F1D1C20A600812625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0C6C631D1C20A600812625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0C6C641D1C20A600812625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0C6C7D1D1C20A600812625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0C6C7E1D1C20A600812625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0C6C801D1C20A600812625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hoppyBunny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GarbageGames.hoppyBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A0C6C811D1C20A600812625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hoppyBunny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GarbageGames.hoppyBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A0C6C831D1C20A600812625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = hoppyBunnyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GarbageGames.hoppyBunnyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoppyBunny.app/hoppyBunny";
+			};
+			name = Debug;
+		};
+		4A0C6C841D1C20A600812625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hoppyBunnyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GarbageGames.hoppyBunnyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoppyBunny.app/hoppyBunny";
+			};
+			name = Release;
+		};
+		4A0C6C861D1C20A600812625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = hoppyBunnyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GarbageGames.hoppyBunnyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hoppyBunny;
+			};
+			name = Debug;
+		};
+		4A0C6C871D1C20A600812625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hoppyBunnyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GarbageGames.hoppyBunnyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hoppyBunny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0C6C4E1D1C20A600812625 /* Build configuration list for PBXProject "hoppyBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C6C7D1D1C20A600812625 /* Debug */,
+				4A0C6C7E1D1C20A600812625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0C6C7F1D1C20A600812625 /* Build configuration list for PBXNativeTarget "hoppyBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C6C801D1C20A600812625 /* Debug */,
+				4A0C6C811D1C20A600812625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0C6C821D1C20A600812625 /* Build configuration list for PBXNativeTarget "hoppyBunnyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C6C831D1C20A600812625 /* Debug */,
+				4A0C6C841D1C20A600812625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0C6C851D1C20A600812625 /* Build configuration list for PBXNativeTarget "hoppyBunnyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0C6C861D1C20A600812625 /* Debug */,
+				4A0C6C871D1C20A600812625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0C6C4B1D1C20A600812625 /* Project object */;
+}
